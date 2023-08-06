@@ -5,10 +5,12 @@ import EduProgram from './pages/EduProgram';
 import HealingProgram from './pages/HealingProgram';
 import Training from './pages/Training';
 import Counseling from './pages/Counseling';
+import Header from './components/Header';
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

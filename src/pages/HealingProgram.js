@@ -1,10 +1,11 @@
 import React from 'react';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 const HealingProgram = () => {
   return (
     <>
-      <div>치유프로그램</div>
+      <div class="font-bold text-xl mb-2">치유프로그램</div>
       <Card
         title="언어치료"
         text="발달장애(경계선, 자폐, 학습장애)아동 청소년 대상으로 개인의 언어발달 정도를 파악하고 연령에 맞도록 지속적인 발달이 이루어지도록 한다."
@@ -40,6 +41,7 @@ const HealingProgram = () => {
         tag1="집합"
         tag2="개인"
       />
+      <Footer />
     </>
   );
 };

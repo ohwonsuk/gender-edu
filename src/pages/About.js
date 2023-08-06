@@ -2,6 +2,7 @@ import React from 'react';
 import Intro from '../components/Intro';
 import Profile from '../components/Profile';
 import History from '../components/History';
+import Footer from '../components/Footer';
 
 const target = [
   '부정적 감정 또는 왜곡된 가치관의 전환으로 사회적 차별 및 폭력을 예방한다.',
@@ -21,6 +22,7 @@ const About = () => {
       <div>{targetList}</div>
       <Profile />
       <History />
+      <Footer />
     </>
   );
 };

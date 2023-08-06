@@ -3,7 +3,7 @@ import React from 'react';
 const MainProfile = () => {
   return (
     <>
-      <h2>대표 이 승 은</h2>
+      <div class="font-bold text-xl mb-2">대표 이 승 은</div>
       <ul>
         <li>경기북부 장애아동청소년 성 인권교육</li>
         <li>우수교육사례 여성가족부 장관상 수상 2019</li>

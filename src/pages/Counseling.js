@@ -1,9 +1,10 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 const Counseling = () => {
   return (
     <>
-      <div>교육 및 상담신청</div>
+      <div class="font-bold text-xl mb-2">교육 및 상담신청</div>
       <div>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeGdiNXk4GnlhZMZzx03JlhFpp4HN5cHf9r34IDTNzTdMOpmw/viewform?embedded=true"
@@ -16,6 +17,7 @@ const Counseling = () => {
           로드 중…
         </iframe>
       </div>
+      <Footer />
     </>
   );
 };

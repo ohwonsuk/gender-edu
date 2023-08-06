@@ -1,10 +1,11 @@
 import React from 'react';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
 
 const EduProgram = () => {
   return (
     <>
-      <div>교육프로그램</div>
+      <div class="font-bold text-xl mb-2">교육프로그램</div>
       <Card
         title="인권교육"
         text="또래인권교육, 성인권교육, 장애인 인권교육 외"
@@ -38,6 +39,7 @@ const EduProgram = () => {
         tag1="집합"
         tag2="개인"
       />
+      <Footer />
     </>
   );
 };
