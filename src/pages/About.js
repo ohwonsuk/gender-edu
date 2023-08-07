@@ -17,7 +17,7 @@ const targetList = target.map((list) => <li>{list}</li>);
 const About = () => {
   return (
     <>
-      <div>전더에듀상담센터는</div>
+      <div class="mt-20">전더에듀상담센터는</div>
       <Intro />
       <div>{targetList}</div>
       <Profile />
