@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Counseling = () => {
   return (
     <>
-      <div class="mt-20 font-bold text-xl mb-2">교육 및 상담신청</div>
+      <div class="pl-2 mt-20 font-bold text-xl mb-2">교육 및 상담신청</div>
       <div>
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSeGdiNXk4GnlhZMZzx03JlhFpp4HN5cHf9r34IDTNzTdMOpmw/viewform?embedded=true"

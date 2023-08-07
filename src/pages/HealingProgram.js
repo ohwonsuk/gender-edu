@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const HealingProgram = () => {
   return (
     <>
-      <div class="mt-20 font-bold text-xl mb-2">치유프로그램</div>
+      <div class="pl-2 mt-20 font-bold text-xl mb-2">치유프로그램</div>
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <Card
           title="언어치료"

@@ -17,10 +17,12 @@ const targetList = target.map((list) => <li>{list}</li>);
 const About = () => {
   return (
     <>
-      <div class="mt-20">전더에듀상담센터는</div>
+      <div class="pl-2 mt-20 font-bold text-xl mb-2">전더에듀상담센터는</div>
       <Intro />
-      <div>{targetList}</div>
+      <ul class="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
       <Profile />
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
       <History />
       <Footer />
     </>
