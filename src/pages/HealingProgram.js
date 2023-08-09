@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 const HealingProgram = () => {
   return (
     <>
-      <div class="pl-2 mt-20 font-bold text-xl mb-2">치유프로그램</div>
-      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="pl-2 mt-5 font-bold text-xl mb-2">치유프로그램</div>
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <Card
           title="언어치료"
           text="발달장애(경계선, 자폐, 학습장애)아동 청소년 대상으로 개인의 언어발달 정도를 파악하고 연령에 맞도록 지속적인 발달이 이루어지도록 한다."

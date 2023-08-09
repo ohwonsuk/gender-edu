@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 const EduProgram = () => {
   return (
     <>
-      <div class="pl-2 mt-20 font-bold text-xl mb-2">교육프로그램</div>
-      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+      <div className="pl-2 mt-5 font-bold text-xl mb-2">교육프로그램</div>
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <Card
           title="인권교육"
           text="또래인권교육, 성인권교육, 장애인 인권교육 외"

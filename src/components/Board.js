@@ -4,21 +4,24 @@ import BoardList from './BoardList';
 const Board = () => {
   return (
     <>
-      <div class="pl-2 text-left font-bold text-xl mt-5 mb-5">공지사항</div>
-      <div class="relative overflow-x-auto mb-5">
-        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">공지사항</div>
+      <div className="pl-2 relative overflow-x-auto mb-5">
+        <table className="w-auto text-base text-left text-gray-500 dark:text-gray-400">
+          <thead className="text-base text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" class="px-6 py-3">
+              <th
+                scope="col"
+                className="px-12 py-3 font-medium flex justify-center"
+              >
                 제 목
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3 font-medium">
                 작성자
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3 font-medium">
                 날 짜
               </th>
-              <th scope="col" class="px-6 py-3">
+              <th scope="col" className="px-6 py-3 font-medium">
                 상 태
               </th>
             </tr>

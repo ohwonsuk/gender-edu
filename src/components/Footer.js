@@ -3,18 +3,18 @@ import React from 'react';
 const Footer = () => {
   return (
     <>
-      <footer class="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-        <div class="mx-6 py-5 text-center md:text-left">
-          <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-6 py-5 text-center md:text-left">
+          <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {/* <!-- Tailwind Elements section --> */}
-            <div class="">
-              <h6 class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+            <div className="">
+              <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="mr-3 h-4 w-4"
+                  className="mr-3 h-4 w-4"
                 >
                   <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
                 </svg>
@@ -28,27 +28,27 @@ const Footer = () => {
             </div>
             {/* <!-- Contact section --> */}
             <div>
-              <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
                 도움이 필요하신가요?
               </h6>
-              <p class="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="mr-3 h-5 w-5"
+                  className="mr-3 h-5 w-5"
                 >
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
                 gecc@naver.com
               </p>
-              <p class="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="mr-3 h-5 w-5"
+                  className="mr-3 h-5 w-5"
                 >
                   <path
                     fill-rule="evenodd"
@@ -58,12 +58,12 @@ const Footer = () => {
                 </svg>
                 02-6269-0110
               </p>
-              <p class="flex items-center justify-center md:justify-start">
+              <p className="flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  class="mr-3 h-5 w-5"
+                  className="mr-3 h-5 w-5"
                 >
                   <path
                     fill-rule="evenodd"
@@ -77,10 +77,10 @@ const Footer = () => {
           </div>
         </div>
         {/* <!--Copyright section--> */}
-        <div class="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
+        <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
           <span>© 2023 Copyright:</span>
           <a
-            class="font-semibold text-neutral-600 dark:text-neutral-400"
+            className="font-semibold text-neutral-600 dark:text-neutral-400"
             href="https://tailwind-elements.com/"
           >
             젠더에듀상담센터

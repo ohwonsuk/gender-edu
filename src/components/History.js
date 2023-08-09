@@ -1,4 +1,5 @@
 import React from 'react';
+import HistoryList from './HistoryList';
 
 const historyData = [
   {
@@ -127,28 +128,28 @@ const historyData = [
   },
 ];
 
-const historyItems = historyData.map(({ id, year, item, agent }) => {
-  return (
-    <>
-      <li key={id}>{year}</li>
-      <li>{item}</li>
-      <li>{agent}</li>
-      {/* <div>
-        {item.map((item) => (
-          <li>{item}</li>
-        ))}
-        {agent.map((item) => (
-          <li>{item}</li>
-        ))}
-      </div> */}
-    </>
-  );
-});
-
 const History = () => {
   return (
     <>
-      <div>{historyItems}</div>
+      {historyData.map(({ id, year, item, agent }) => {
+        let work = [];
+        for (let i = 0; i < item.length; i++) {
+          work.push({ item: item[i], agent: agent[i] });
+        }
+        return (
+          <>
+            <div key={id} class="pl-2 text-lg underline mt-5 mb-2">
+              {year}
+            </div>
+            <ul class="list-disc leading-relaxed list-outside pl-2">
+              {work.map((w) => (
+                <HistoryList item={w.item} agent={w.agent} />
+              ))}
+            </ul>
+            <br />
+          </>
+        );
+      })}
     </>
   );
 };
