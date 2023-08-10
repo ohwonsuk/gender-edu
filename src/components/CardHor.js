@@ -17,8 +17,11 @@ const CardHor = ({ id, title, item }) => {
             {title}
           </h5>
           <p>
-            {item.map((item) => (
-              <li className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+            {item.map((item, i) => (
+              <li
+                key={i}
+                className="mb-4 text-base text-neutral-600 dark:text-neutral-200"
+              >
                 {item}
               </li>
             ))}

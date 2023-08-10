@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -79,12 +80,12 @@ const Footer = () => {
         {/* <!--Copyright section--> */}
         <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
           <span>© 2023 Copyright:</span>
-          <a
+          <Link
             className="font-semibold text-neutral-600 dark:text-neutral-400"
-            href="https://tailwind-elements.com/"
+            to="/"
           >
             젠더에듀상담센터
-          </a>
+          </Link>
         </div>
       </footer>
     </>
