@@ -5,10 +5,26 @@ import { Link } from 'react-router-dom';
 const navigation = [
   { name: '젠더에듀상담센터', to: '/', current: true },
   { name: '센터소개', to: '/about', current: false },
-  { name: '교육프로그램', to: '/eduprogram', current: false },
-  { name: '치유프로그램', to: '/healingprogram', current: false },
-  { name: '교육활동가양성', to: '/training', current: false },
-  { name: '교육및상담신청', to: '/counseling', current: false },
+  {
+    name: '교육프로그램',
+    to: '/eduprogram',
+    current: false,
+  },
+  {
+    name: '치유프로그램',
+    to: '/healingprogram',
+    current: false,
+  },
+  {
+    name: '교육활동가양성',
+    to: '/training',
+    current: false,
+  },
+  {
+    name: '교육및상담신청',
+    to: '/counseling',
+    current: false,
+  },
 ];
 
 function classNames(...classes) {
@@ -20,7 +36,7 @@ export default function Header() {
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl  sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
                 {/* Mobile menu button*/}
