@@ -32,8 +32,11 @@ const Modal = ({ title, content }) => {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
-                  {content.map((c) => (
-                    <p className="my-4 text-slate-500 text-lg leading-relaxed">
+                  {content.map((c, i) => (
+                    <p
+                      key={i}
+                      className="my-4 text-slate-500 text-lg leading-relaxed"
+                    >
                       {c}
                     </p>
                   ))}

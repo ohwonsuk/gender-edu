@@ -8,6 +8,7 @@ import Board from '../components/Board';
 const Home = () => {
   return (
     <>
+      <div className="w-full h-40 mx-auto bg-gradient-to-b from-cyan-600 border-0 rounded" />
       <Main />
       <MainProfile />
       <WorkItem />

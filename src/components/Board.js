@@ -12,7 +12,7 @@ const boardData = [
       '안녕하세요 ~',
       '젠더에듀상담센터 홈페이지를 오픈하였습니다.',
       '다양한 교육프로그램을 운영하고 있으니 많은 관심 부탁드립니다.',
-      '',
+      ' ',
       '감사합니다.',
     ],
   },
@@ -60,6 +60,7 @@ const Board = () => {
           <tbody>
             {boardData.map((b) => (
               <BoardList
+                kye={b.id}
                 title={b.title}
                 editor={b.editor}
                 date={b.date}
@@ -67,18 +68,6 @@ const Board = () => {
                 content={b.content}
               />
             ))}
-            {/* <BoardList
-              title="홈페이지 오픈안내"
-              editor="관리자"
-              date="5월8일"
-              status="진행중"
-            />
-            <BoardList
-              title="교육 및 상담신청 안내"
-              editor="관리자"
-              date="5월8일"
-              status="진행중"
-            /> */}
           </tbody>
         </table>
       </div>

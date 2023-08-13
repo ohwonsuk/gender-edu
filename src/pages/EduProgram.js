@@ -69,6 +69,7 @@ export const programList = [
 const EduProgram = () => {
   return (
     <>
+      <div className="w-full h-40 mx-auto bg-gradient-to-b from-cyan-600 border-0 rounded" />
       <div className="pl-2 mt-5 font-bold text-xl mb-2">교육프로그램</div>
       <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {programList.map((list) => {

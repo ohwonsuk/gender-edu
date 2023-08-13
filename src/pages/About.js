@@ -17,6 +17,8 @@ const targetList = target.map((list) => <li>{list}</li>);
 const About = () => {
   return (
     <>
+      <div className="w-full h-40 mx-auto bg-gradient-to-b from-cyan-600 border-0 rounded" />{' '}
+      {/* my-4 md:my-10 상단 메뉴 마진 제거*/}
       <div className="pl-2 mt-5 font-bold text-xl mb-2">전더에듀상담센터는</div>
       <Intro />
       <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>

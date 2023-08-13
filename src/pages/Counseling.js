@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 const Counseling = () => {
   return (
     <>
+      <div className="w-full h-40 mx-auto bg-gradient-to-b from-cyan-600 border-0 rounded" />
       <div className="pl-2 mt-5 font-bold text-xl mb-2">교육 및 상담신청</div>
       <div>
         <iframe
