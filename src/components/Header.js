@@ -3,26 +3,26 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 
 const navigation = [
-  { name: '젠더에듀상담센터', to: '/', current: true },
-  { name: '센터소개', to: '/about', current: false },
+  { name: '젠더에듀상담센터', to: `${process.env.PUBLIC_URL}/`, current: true },
+  { name: '센터소개', to: `${process.env.PUBLIC_URL}/about`, current: false },
   {
     name: '교육프로그램',
-    to: '/eduprogram',
+    to: `${process.env.PUBLIC_URL}/eduprogram`,
     current: false,
   },
   {
     name: '치유프로그램',
-    to: '/healingprogram',
+    to: `${process.env.PUBLIC_URL}/healingprogram`,
     current: false,
   },
   {
     name: '교육활동가양성',
-    to: '/training',
+    to: `${process.env.PUBLIC_URL}/training`,
     current: false,
   },
   {
     name: '교육및상담신청',
-    to: '/counseling',
+    to: `${process.env.PUBLIC_URL}/counseling`,
     current: false,
   },
 ];
