@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "https://ohwonsuk.github.io/gender-edu/static/css/main.1095cb2b.css",
-    "main.js": "https://ohwonsuk.github.io/gender-edu/static/js/main.addf7cab.js",
+    "main.js": "https://ohwonsuk.github.io/gender-edu/static/js/main.594cb381.js",
     "index.html": "https://ohwonsuk.github.io/gender-edu/index.html",
     "main.1095cb2b.css.map": "https://ohwonsuk.github.io/gender-edu/static/css/main.1095cb2b.css.map",
-    "main.addf7cab.js.map": "https://ohwonsuk.github.io/gender-edu/static/js/main.addf7cab.js.map"
+    "main.594cb381.js.map": "https://ohwonsuk.github.io/gender-edu/static/js/main.594cb381.js.map"
   },
   "entrypoints": [
     "static/css/main.1095cb2b.css",
-    "static/js/main.addf7cab.js"
+    "static/js/main.594cb381.js"
   ]
 }
