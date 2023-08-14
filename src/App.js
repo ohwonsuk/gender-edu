@@ -7,20 +7,21 @@ import Training from './pages/Training';
 import Counseling from './pages/Counseling';
 import Header from './components/Header';
 import EduDetail from './components/EduDetail';
+import HealingDetail from './components/HealingDetail';
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/eduprogram" element={<EduProgram />} />
-        <Route path="/eduprogram/:id" element={<EduDetail />} />
-        <Route path="/healingprogram'" element={<HealingProgram />} />
-        <Route path="/healingprogram/:id" element={<EduDetail />} />
-        <Route path="/training" element={<Training />} />
-        <Route path="/counseling" element={<Counseling />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/eduprogram" element={<EduProgram />} />
+        <Route exact path="/eduprogram/:id" element={<EduDetail />} />
+        <Route exact path="/healingprogram" element={<HealingProgram />} />
+        <Route exact path="/healingprogram/:id" element={<HealingDetail />} />
+        <Route exact path="/training" element={<Training />} />
+        <Route exact path="/counseling" element={<Counseling />} />
       </Routes>
     </BrowserRouter>
   );

@@ -138,13 +138,15 @@ const History = () => {
         }
         return (
           <>
-            <div key={id} class="pl-2 text-lg underline mt-5 mb-2">
-              {year}
-            </div>
-            <ul class="list-disc leading-relaxed list-outside pl-2">
-              {work.map((w) => (
-                <HistoryList item={w.item} agent={w.agent} />
-              ))}
+            <div className="pl-2 text-lg underline mt-5 mb-2">{year}</div>
+            <ul className="list-disc leading-relaxed list-outside pl-2">
+              {work.map((w, i) => {
+                return (
+                  <div key={i}>
+                    <HistoryList item={w.item} agent={w.agent} />
+                  </div>
+                );
+              })}
             </ul>
             <br />
           </>

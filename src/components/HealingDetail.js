@@ -1,11 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import { healingList } from '../pages/HealingProgram';
+import { Link } from 'react-router-dom';
 
 const HealingDetail = () => {
   const { id } = useParams();
   const num = parseInt(id);
-  const { title, text, tags, imgUrl } = healingList[num - 1];
+  const { title, text, tags, imgUrl, target, period } = healingList[num - 1];
   return (
     <>
       <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">{title}</div>
@@ -22,7 +23,7 @@ const HealingDetail = () => {
               key={i}
               className="inline-bloc px-3 py-1 font-semibold text-gray-700 mb-2"
             >
-              {tag}
+              {tags}
             </span>
           </>
         );
@@ -41,7 +42,7 @@ const HealingDetail = () => {
         {period}
       </div>
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold pl-2 py-2 px-4 rounded mt-4">
-        <Link to="/eduprogram">이 전</Link>
+        <Link to="/healingprogram">이 전</Link>
       </button>
     </>
   );

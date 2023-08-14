@@ -8,7 +8,7 @@ const career = [
   '전 한국복지상담교육협회 꿈누리학교폭력대책위원단',
 ];
 
-const careerList = career.map((item) => <li>{item}</li>);
+const careerList = career.map((item, i) => <li key={i}>{item}</li>);
 
 const Profile = () => {
   return (

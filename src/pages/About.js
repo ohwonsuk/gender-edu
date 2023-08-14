@@ -12,7 +12,7 @@ const target = [
   '교육컨텐츠 연구 활성화로 건강한 디지털 문화조성 및 안전한 지역사회 환경을 조성한다.',
 ];
 
-const targetList = target.map((list) => <li>{list}</li>);
+const targetList = target.map((list, i) => <li key={i}>{list}</li>);
 
 const About = () => {
   return (
