@@ -30,28 +30,28 @@ const Board = () => {
   return (
     <>
       <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">공지사항</div>
-      <div className="pl-2 relative overflow-x-auto mb-5">
+      <div className="pl-2 overflow-x-scroll mb-5">
         <table className="w-auto text-base text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-base text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <thead className="text-base text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th
                 scope="col"
-                className="px-12 py-3 font-medium flex justify-center"
+                className="px-6 py-3 font-medium flex justify-center"
               >
                 제 목
               </th>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th scope="col" className="w-20 px-3 py-3 font-medium">
                 작성자
               </th>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th scope="col" className="w-20 px-3 py-3 font-medium">
                 날 짜
               </th>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th scope="col" className="w-20 px-3 py-3 font-medium">
                 상 태
               </th>
               <th
                 scope="col"
-                className="px-6 py-3 font-medium flex justify-center"
+                className="px-3 py-3 font-medium flex justify-center"
               >
                 보 기
               </th>
@@ -60,7 +60,7 @@ const Board = () => {
           <tbody>
             {boardData.map((b) => (
               <BoardList
-                kye={b.id}
+                key={b.id}
                 title={b.title}
                 editor={b.editor}
                 date={b.date}

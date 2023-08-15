@@ -11,10 +11,10 @@ const BoardList = ({ title, editor, date, status, content }) => {
         >
           {title}
         </th>
-        <td className="px-6 py-4">{editor}</td>
-        <td className="px-6 py-4">{date}</td>
-        <td className="px-6 py-4">{status}</td>
-        <td className="px-6 py-4">
+        <td className="px-3 py-2">{editor}</td>
+        <td className="px-3 py-2">{date}</td>
+        <td className="px-3 py-2">{status}</td>
+        <td className="px-3 py-2">
           <Modal title={title} content={content} />
         </td>
       </tr>

@@ -57,6 +57,9 @@ export default function Header() {
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                     alt="Your Company"
                   />
+                  <div className="text-white text-lg bold flex space-x-1 md:hidden">
+                    젠더에듀상담센터
+                  </div>
                 </div>
                 <div className="hidden md:ml-6 md:block">
                   <div className="flex space-x-1">
