@@ -1,65 +1,66 @@
 import React from 'react';
+import TableItem from './TableItem';
+
+const tableData = [
+  {
+    id: 1,
+    name: '이승은',
+    field: '젠더에듀상담센터 소장',
+    note: '내부위원',
+  },
+  {
+    id: 2,
+    name: '이은주',
+    field: '인지행동치료전문가',
+    note: '외부위원',
+  },
+  {
+    id: 3,
+    name: '이승민',
+    field: '인권/폭력예방교육전문가',
+    note: '외부위원',
+  },
+  {
+    id: 4,
+    name: '주현실',
+    field: '언어치료전문가',
+    note: '외부위원',
+  },
+  {
+    id: 5,
+    name: '이주희',
+    field: '놀이치료전문가',
+    note: '외부위원',
+  },
+  {
+    id: 6,
+    name: '임지혜',
+    field: '미술치료전문가',
+    note: '외부위원',
+  },
+];
 
 const Table = () => {
   return (
     <>
       <div className="relative overflow-x-auto mb-5">
         <table className="w-auto text-sm text-left text-gray-500 dark:text-gray-400">
-          <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <thead className="text-basic text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" className="px-6 py-3">
-                구 분
-              </th>
-              <th scope="col" className="px-6 py-3">
+              <th scope="col" className="px-6 py-3 flex justify-center">
                 이 름
               </th>
-              <th scope="col" className="px-6 py-3">
-                분 야
+              <th scope="col" className="px-6 py-3 ">
+                소속 및 분야
+              </th>
+              <th scope="col" className="px-6 py-3 flex justify-center">
+                비 고
               </th>
             </tr>
           </thead>
-          <tbody>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                교육상담전문위원
-              </th>
-              <td className="px-6 py-4">이승은</td>
-              <td className="px-6 py-4">젠더에듀상담센터 소장</td>
-            </tr>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                교육연구자문위원
-              </th>
-              <td className="px-6 py-4">이은주</td>
-              <td className="px-6 py-4">인지행동치료전문가</td>
-            </tr>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                교육연구자문위원
-              </th>
-              <td className="px-6 py-4">한지선</td>
-              <td className="px-6 py-4">미술치료전문가</td>
-            </tr>
-            <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-              <th
-                scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-              >
-                교육연구자문위원
-              </th>
-              <td className="px-6 py-4">이승민</td>
-              <td className="px-6 py-4">인권/폭력예방교육전문가</td>
-            </tr>
-          </tbody>
+          {tableData.map((t) => (
+            <TableItem key={t.id} name={t.name} field={t.field} note={t.note} />
+          ))}
         </table>
       </div>
     </>
