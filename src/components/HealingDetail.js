@@ -11,7 +11,9 @@ const HealingDetail = () => {
     <>
       <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">{title}</div>
       <img className="w-auto pl-2" src={imgUrl} alt={title} />
-      <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">교육내용</div>
+      <div className="font-ibmsans pl-2 text-left font-bold text-lg mt-5 mb-5">
+        교육내용
+      </div>
       <div className="pl-2 text-left font-semibold text-gray-700 mb-5">
         {text}
       </div>

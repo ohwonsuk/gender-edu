@@ -29,7 +29,9 @@ const boardData = [
 const Board = () => {
   return (
     <>
-      <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">공지사항</div>
+      <div className="font-ibmsans pl-2 text-left font-bold text-xl mt-5 mb-5">
+        공지사항
+      </div>
       <div className="pl-2 overflow-x-scroll mb-5">
         <table className="w-auto text-base text-left text-gray-500 dark:text-gray-400">
           <thead className="text-base text-gray-700 bg-gray-100 dark:bg-gray-700 dark:text-gray-400">

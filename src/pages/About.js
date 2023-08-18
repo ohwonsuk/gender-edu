@@ -17,9 +17,18 @@ const targetList = target.map((list, i) => <li key={i}>{list}</li>);
 const About = () => {
   return (
     <>
-      <div className="w-full h-40 mx-auto bg-gradient-to-b from-cyan-600 border-0 rounded" />{' '}
+      <div className="w-full h-40 mx-auto bg-gradient-to-b from-teal-400 to-teal-50 border-0 rounded">
+        <div className="font-ibmsans text-xs text-sky-500 pt-28 pl-10 font-semibold">
+          Gender Edu
+        </div>
+        <div className="font-ibmsans text-xs text-sky-500 pl-10 font-semibold">
+          Counseling Center
+        </div>
+      </div>
       {/* my-4 md:my-10 상단 메뉴 마진 제거*/}
-      <div className="pl-2 mt-5 font-bold text-xl mb-2">전더에듀상담센터는</div>
+      <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
+        전더에듀상담센터는
+      </div>
       <Intro />
       <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
       <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />

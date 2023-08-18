@@ -6,7 +6,7 @@ const Modal = ({ title, content }) => {
   return (
     <>
       <button
-        className="w-24 bg-cyan-500 text-white active:bg-cyan-600 font-bold text-sm px-3 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="font-ibmsans w-24 bg-cyan-500 text-white active:bg-cyan-600 font-bold text-sm px-3 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -20,7 +20,9 @@ const Modal = ({ title, content }) => {
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                  <h3 className="text-3xl font-semibold">{title}</h3>
+                  <h3 className="font-ibmsans text-3xl font-semibold">
+                    {title}
+                  </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                     onClick={() => setShowModal(false)}
@@ -31,7 +33,7 @@ const Modal = ({ title, content }) => {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto">
+                <div className="font-ibmsans relative p-6 flex-auto">
                   {content.map((c, i) => (
                     <p
                       key={i}

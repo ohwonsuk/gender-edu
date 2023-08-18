@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             {/* <!-- Tailwind Elements section --> */}
             <div className="">
-              <h6 className="mb-3 text-lg flex items-center justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-3 font-ibmsans text-lg flex items-center justify-center font-semibold uppercase md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -21,14 +21,14 @@ const Footer = () => {
                 </svg>
                 젠더에듀상담센터
               </h6>
-              <p>대표 : 이승은</p>
-              <p>사업자등록번호 : </p>
+              <p className="font-ibmsans">대표 : 이승은</p>
+              <p className="font-ibmsans">사업자등록번호 : 287-20-01792</p>
             </div>
             {/* <!-- Contact section --> */}
             <div>
-              <h6 className="mb-3 flex justify-center font-semibold uppercase md:justify-start">
+              {/* <h6 className="mb-3 flex justify-center font-semibold uppercase md:justify-start">
                 도움이 필요하신가요?
-              </h6>
+              </h6> */}
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Footer = () => {
                 </svg>
                 02-6269-0110
               </p>
-              <p className="flex items-center justify-center md:justify-start">
+              <p className="font-ibmsans flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -93,7 +93,7 @@ const Footer = () => {
         <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
           <span>© 2023 Copyright:</span>
           <Link
-            className="font-semibold text-neutral-600 dark:text-neutral-400"
+            className="pl-2 font-ibmsans font-semibold text-neutral-600 dark:text-neutral-400"
             to="/"
           >
             젠더에듀상담센터

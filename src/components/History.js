@@ -138,7 +138,9 @@ const History = () => {
         }
         return (
           <>
-            <div className="pl-2 text-lg underline mt-5 mb-2">{year}</div>
+            <div className="font-ibmsans pl-2 text-lg underline mt-5 mb-2">
+              {year}
+            </div>
             <ul className="list-disc leading-relaxed list-outside pl-2">
               {work.map((w, i) => {
                 return (
