@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gender-edu/static/css/main.621909e6.css",
-    "main.js": "/gender-edu/static/js/main.6f12c593.js",
+    "main.css": "/gender-edu/static/css/main.d9138660.css",
+    "main.js": "/gender-edu/static/js/main.05933d34.js",
     "index.html": "/gender-edu/index.html",
-    "main.621909e6.css.map": "/gender-edu/static/css/main.621909e6.css.map",
-    "main.6f12c593.js.map": "/gender-edu/static/js/main.6f12c593.js.map"
+    "main.d9138660.css.map": "/gender-edu/static/css/main.d9138660.css.map",
+    "main.05933d34.js.map": "/gender-edu/static/js/main.05933d34.js.map"
   },
   "entrypoints": [
-    "static/css/main.621909e6.css",
-    "static/js/main.6f12c593.js"
+    "static/css/main.d9138660.css",
+    "static/js/main.05933d34.js"
   ]
 }
