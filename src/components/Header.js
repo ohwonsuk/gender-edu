@@ -62,12 +62,12 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="hidden md:ml-6 md:block">
-                  <div className="flex space-x-1">
+                  <div className="flex space-x-1 text-sm lg:text-base">
                     {navigation.map((item) => (
                       <Link
                         key={item.name}
                         to={item.to}
-                        className="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                        className="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2  font-medium"
                       >
                         {item.name}
                       </Link>
