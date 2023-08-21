@@ -26,15 +26,17 @@ const About = () => {
         </div>
       </div>
       {/* my-4 md:my-10 상단 메뉴 마진 제거*/}
-      <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
-        전더에듀상담센터는
+      <div className="w-700px md:pl-[150px] lg:pl-[250px]">
+        <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
+          전더에듀상담센터는
+        </div>
+        <Intro />
+        <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
+        <Profile />
+        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
+        <History />
       </div>
-      <Intro />
-      <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
-      <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
-      <Profile />
-      <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
-      <History />
       <Footer />
     </>
   );
