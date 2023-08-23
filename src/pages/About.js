@@ -32,9 +32,9 @@ const About = () => {
         </div>
         <Intro />
         <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
-        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
+        <hr className="w-48 h-1 mx-36 my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
         <Profile />
-        <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
+        <hr className="w-48 h-1 mx-36 my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
         <History />
       </div>
       <Footer />

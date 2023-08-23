@@ -6,8 +6,8 @@ const Footer = () => {
     <>
       <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-        <div className="mx-6 py-5 text-center md:text-left">
-          <div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="md:pl-6 mx-6 py-5 text-left">
+          <div className="grid-1 grid gap-8 md:grid-cols-2">
             {/* <!-- Tailwind Elements section --> */}
             <div className="">
               <h6 className="mb-3 font-ibmsans text-lg flex items-center justify-center font-semibold uppercase md:justify-start">
@@ -26,9 +26,6 @@ const Footer = () => {
             </div>
             {/* <!-- Contact section --> */}
             <div>
-              {/* <h6 className="mb-3 flex justify-center font-semibold uppercase md:justify-start">
-                도움이 필요하신가요?
-              </h6> */}
               <p className="mb-4 flex items-center justify-center md:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,18 +69,6 @@ const Footer = () => {
                 02-6269-0110
               </p>
               <p className="font-ibmsans flex items-center justify-center md:justify-start">
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-5 w-5"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M7.875 1.5C6.839 1.5 6 2.34 6 3.375v2.99c-.426.053-.851.11-1.274.174-1.454.218-2.476 1.483-2.476 2.917v6.294a3 3 0 003 3h.27l-.155 1.705A1.875 1.875 0 007.232 22.5h9.536a1.875 1.875 0 001.867-2.045l-.155-1.705h.27a3 3 0 003-3V9.456c0-1.434-1.022-2.7-2.476-2.917A48.716 48.716 0 0018 6.366V3.375c0-1.036-.84-1.875-1.875-1.875h-8.25zM16.5 6.205v-2.83A.375.375 0 0016.125 3h-8.25a.375.375 0 00-.375.375v2.83a49.353 49.353 0 019 0zm-.217 8.265c.178.018.317.16.333.337l.526 5.784a.375.375 0 01-.374.409H7.232a.375.375 0 01-.374-.409l.526-5.784a.373.373 0 01.333-.337 41.741 41.741 0 018.566 0zm.967-3.97a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H18a.75.75 0 01-.75-.75V10.5zM15 9.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V10.5a.75.75 0 00-.75-.75H15z"
-                    clipRule="evenodd"
-                  />
-                </svg> */}
                 🕙 평일: 오전10:00 ~ 오후05:00
               </p>
             </div>
