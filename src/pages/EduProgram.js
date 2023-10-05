@@ -66,6 +66,9 @@ export const programList = [
   },
 ];
 
+{
+  /* <!-- 교육프로그램 페이지 --> */
+}
 const EduProgram = () => {
   return (
     <>

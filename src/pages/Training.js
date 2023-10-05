@@ -2,6 +2,9 @@ import React from 'react';
 import Table from '../components/Table';
 import Footer from '../components/Footer';
 
+{
+  /* <!-- 교육활동가양성 페이지 --> */
+}
 const Training = () => {
   return (
     <>

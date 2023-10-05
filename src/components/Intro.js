@@ -1,5 +1,8 @@
 import React from 'react';
 
+{
+  /* <!-- 소개페이지 인사말 --> */
+}
 const Intro = () => {
   return (
     <>

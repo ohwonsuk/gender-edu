@@ -10,6 +10,9 @@ const career = [
 
 const careerList = career.map((item, i) => <li key={i}>{item}</li>);
 
+{
+  /* <!-- 대표 이력정보 --> */
+}
 const Profile = () => {
   return (
     <>

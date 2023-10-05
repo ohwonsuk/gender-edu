@@ -14,6 +14,9 @@ const target = [
 
 const targetList = target.map((list, i) => <li key={i}>{list}</li>);
 
+{
+  /* <!-- 소개페이지 --> */
+}
 const About = () => {
   return (
     <>

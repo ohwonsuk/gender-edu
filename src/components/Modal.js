@@ -5,6 +5,7 @@ const Modal = ({ title, content }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
+      {/* <!-- 게시판 등록 내용 확인 --> */}
       <button
         className="font-ibmsans w-24 bg-cyan-500 text-white active:bg-cyan-600 font-bold text-sm px-3 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"

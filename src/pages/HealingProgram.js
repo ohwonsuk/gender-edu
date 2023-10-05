@@ -66,6 +66,9 @@ export const healingList = [
   },
 ];
 
+{
+  /* <!-- 치유프로그램 페이지 --> */
+}
 const HealingProgram = () => {
   return (
     <>

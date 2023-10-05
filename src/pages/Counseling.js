@@ -1,6 +1,9 @@
 import React from 'react';
 import Footer from '../components/Footer';
 
+{
+  /* <!-- 교육 및 상담신청 페이지 --> */
+}
 const Counseling = () => {
   return (
     <>

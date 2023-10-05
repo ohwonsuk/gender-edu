@@ -5,6 +5,9 @@ import Footer from '../components/Footer';
 import Main from '../components/Main';
 import Board from '../components/Board';
 
+{
+  /* <!-- 홈페이지 --> */
+}
 const Home = () => {
   return (
     <>

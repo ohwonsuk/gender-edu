@@ -128,6 +128,9 @@ const historyData = [
   },
 ];
 
+{
+  /* <!-- 소개페이지 소장 이력정보 표출 --> */
+}
 const History = () => {
   return (
     <>

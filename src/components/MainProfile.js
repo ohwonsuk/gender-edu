@@ -1,5 +1,8 @@
 import React from 'react';
 
+{
+  /* <!-- 홈페이지 대표 이력정보 --> */
+}
 const MainProfile = () => {
   return (
     <>
