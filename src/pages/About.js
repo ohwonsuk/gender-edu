@@ -1,5 +1,4 @@
 import React from 'react';
-import Intro from '../components/Intro';
 import Profile from '../components/Profile';
 import History from '../components/History';
 import Footer from '../components/Footer';
