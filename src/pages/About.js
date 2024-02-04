@@ -26,7 +26,6 @@ const About = () => {
         <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
           젠더에듀상담센터는
         </div>
-        <Intro />
         <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>
         <hr className="w-48 h-1 mx-36 my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700" />
         <Profile />
