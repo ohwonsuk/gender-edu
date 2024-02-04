@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const EduDetail = () => {
   const { id } = useParams();
   const num = parseInt(id);
-  const { title, text, tags, imgUrl, target, period } = programList[num - 1];
+  const { title, text, tags, target, period } = programList[num - 1];
   return (
     <>
       <div className="w-700px md:pl-[160px] lg:pl-[250px] font-ibmsans">
