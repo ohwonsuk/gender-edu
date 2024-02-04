@@ -11,18 +11,8 @@ const Footer = () => {
             {/* <!-- Tailwind Elements section --> */}
             <div className="">
               <h6 className="mb-3 font-ibmsans text-lg flex items-center justify-center font-semibold uppercase md:justify-start">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="mr-3 h-4 w-4"
-                >
-                  <path d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-                </svg>
                 젠더에듀상담센터
               </h6>
-              <p className="font-ibmsans">대표 : 이승은</p>
-              <p className="font-ibmsans">사업자등록번호 : 287-20-01792</p>
             </div>
             {/* <!-- Contact section --> */}
             <div>
@@ -75,6 +65,10 @@ const Footer = () => {
                   alt="clock"
                 />
                 평일: 오전10:00 ~ 오후05:00
+              </p>
+              <p className="font-ibmsans text-sm">대표 : 이승은</p>
+              <p className="font-ibmsans text-sm">
+                사업자등록번호 : 287-20-01792
               </p>
             </div>
           </div>
