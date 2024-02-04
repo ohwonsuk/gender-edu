@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Heading />
-      <div className="w-700px md:pl-[160px] lg:pl-[250px]">
+      <div className="w-760px md:pl-[160px] lg:pl-[250px]">
         <Main />
         <MainProfile />
         <WorkItem />

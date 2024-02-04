@@ -22,7 +22,7 @@ const About = () => {
     <>
       <Heading />
       {/* my-4 md:my-10 상단 메뉴 마진 제거*/}
-      <div className="w-700px md:pl-[150px] lg:pl-[250px]">
+      <div className="w-800px md:pl-[150px] lg:pl-[250px]">
         <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
           젠더에듀상담센터는
         </div>

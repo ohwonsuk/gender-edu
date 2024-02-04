@@ -18,7 +18,7 @@ const Profile = () => {
       <div className="font-ibmsans pl-2 font-bold text-xl mb-2">
         대표 이 승 은
       </div>
-      <ul className="pl-6 list-disc leading-relaxed text-lg mb-5">
+      <ul className="pl-6 list-disc leading-relaxed text-base mb-5">
         {careerList}
       </ul>
     </>
