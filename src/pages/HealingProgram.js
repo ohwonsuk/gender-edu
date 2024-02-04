@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
+import Heading from '../components/Heading';
 
 export const healingList = [
   {
@@ -66,20 +67,12 @@ export const healingList = [
   },
 ];
 
-{
-  /* <!-- 치유프로그램 페이지 --> */
-}
+/* <!-- 치유프로그램 페이지 --> */
+
 const HealingProgram = () => {
   return (
     <>
-      <div className="w-full h-40 mx-auto bg-gradient-to-b from-teal-400 to-teal-50 border-0 rounded">
-        <div className="font-ibmsans text-xs text-sky-500 pt-28 pl-10 font-semibold">
-          Gender Edu
-        </div>
-        <div className="font-ibmsans text-xs text-sky-500 pl-10 font-semibold">
-          Counseling Center
-        </div>
-      </div>
+      <Heading />
       <div className="font-ibmsans pl-2 md:pl-10 mt-5 font-bold text-xl mb-2">
         치유프로그램
       </div>

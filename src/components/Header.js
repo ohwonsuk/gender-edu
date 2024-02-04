@@ -2,9 +2,8 @@ import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Link } from 'react-router-dom';
 
-{
-  /* <!-- 페이지 명칭 및 경로설정 --> */
-}
+/* <!-- 페이지 명칭 및 경로설정 --> */
+
 const navigation = [
   { name: '젠더에듀상담센터', to: '/', current: true },
   { name: '센터소개', to: '/about', current: false },
@@ -30,9 +29,8 @@ const navigation = [
   },
 ];
 
-{
-  /* <!-- 상단 메뉴 --> */
-}
+/* <!-- 상단 메뉴 --> */
+
 export default function Header() {
   return (
     <Disclosure as="nav" className="flex-wrap">
@@ -56,7 +54,7 @@ export default function Header() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    src="/Logo1.png"
                     alt="젠더에듀상담센터"
                   />
                   <div className="font-ibmsans text-black text-lg ml-2 bold flex space-x-1 md:hidden">

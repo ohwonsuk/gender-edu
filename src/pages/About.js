@@ -3,6 +3,7 @@ import Intro from '../components/Intro';
 import Profile from '../components/Profile';
 import History from '../components/History';
 import Footer from '../components/Footer';
+import Heading from '../components/Heading';
 
 const target = [
   '부정적 감정 또는 왜곡된 가치관의 전환으로 사회적 차별 및 폭력을 예방한다.',
@@ -14,24 +15,16 @@ const target = [
 
 const targetList = target.map((list, i) => <li key={i}>{list}</li>);
 
-{
-  /* <!-- 소개페이지 --> */
-}
+/* <!-- 소개페이지 --> */
+
 const About = () => {
   return (
     <>
-      <div className="w-full h-40 mx-auto bg-gradient-to-b from-teal-400 to-teal-50 border-0 rounded">
-        <div className="font-ibmsans text-xs text-sky-500 pt-28 pl-10 font-semibold">
-          Gender Edu
-        </div>
-        <div className="font-ibmsans text-xs text-sky-500 pl-10 font-semibold">
-          Counseling Center
-        </div>
-      </div>
+      <Heading />
       {/* my-4 md:my-10 상단 메뉴 마진 제거*/}
       <div className="w-700px md:pl-[150px] lg:pl-[250px]">
         <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
-          전더에듀상담센터는
+          젠더에듀상담센터는
         </div>
         <Intro />
         <ul className="pl-6 list-disc leading-relaxed mb-5">{targetList}</ul>

@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
+import Heading from '../components/Heading';
 
 export const programList = [
   {
     id: 1,
     title: '인권교육',
     text: '또래인권교육, 성인권교육, 장애인 인권교육 외',
-    imgUrl: 'https://picsum.photos/200/100?random=1',
+    imgUrl: '',
     tags: ['집합', '개인'],
     target: [
       '청소년대상 : 초, 중, 고 (특수)학급,  특수학교 등',
@@ -20,7 +21,7 @@ export const programList = [
     id: 2,
     title: '폭력예방교육',
     text: '학교폭력, 가정폭력, (디지털)성폭력 외',
-    imgUrl: 'https://picsum.photos/200/100?random=2',
+    imgUrl: '',
     tags: ['집합', '개인'],
     target: [
       '청소년대상 : 초, 중, 고 (특수)학급,  특수학교 등',
@@ -32,8 +33,8 @@ export const programList = [
     id: 3,
     title: '양성평등교육',
     text: '성 인지적 관점을 기반으로 사회적 성역할의 고정관념 또는 편견에서 벗어나 평등함을 인지',
-    imgUrl: 'https://picsum.photos/200/100?random=3',
-    tags: ['대면'],
+    imgUrl: '',
+    tags: ['집합', '개인'],
     target: [
       '청소년대상 : 초, 중, 고 (특수)학급,  특수학교 등',
       '성   인대상 : 장애인 직업재활시설, 장애인복지시설 이용자, 부모 , 교직원 등 청소년 ',
@@ -44,8 +45,8 @@ export const programList = [
     id: 4,
     title: '생명존중교육',
     text: '생명의 소중함을 인지하고 자아존중감 및 타인에 대한 배려를 도모하여 삶의 긍정적 인식을 제고하도록 한다.',
-    imgUrl: 'https://picsum.photos/200/100?random=4',
-    tags: ['대면'],
+    imgUrl: '',
+    tags: ['집합', '개인'],
     target: [
       '청소년대상 : 초, 중, 고 (특수)학급,  특수학교 등',
       '성   인대상 : 장애인 직업재활시설, 장애인복지시설 이용자, 부모 , 교직원 등 ',
@@ -56,7 +57,7 @@ export const programList = [
     id: 5,
     title: '가해자 재발방지교육',
     text: '학교폭력,가정폭력,(디지털)성폭력, 성희롱 가해자의 왜곡된 인식을 수정하고 재발을 방지한다.',
-    imgUrl: 'https://picsum.photos/200/100?random=5',
+    imgUrl: '',
     tags: ['집합', '개인'],
     target: [
       '청소년대상 : 초, 중, 고 (특수)학급,  특수학교 등',
@@ -66,20 +67,12 @@ export const programList = [
   },
 ];
 
-{
-  /* <!-- 교육프로그램 페이지 --> */
-}
+/* <!-- 교육프로그램 페이지 --> */
+
 const EduProgram = () => {
   return (
     <>
-      <div className="w-full h-40 mx-auto bg-gradient-to-b from-teal-400 to-teal-50 border-0 rounded">
-        <div className="font-ibmsans text-xs text-sky-500 pt-28 pl-10 font-semibold">
-          Gender Edu
-        </div>
-        <div className="font-ibmsans text-xs text-sky-500 pl-10 font-semibold">
-          Counseling Center
-        </div>
-      </div>
+      <Heading />
       <div className="font-ibmsans pl-2 md:pl-10 mt-5 font-bold text-xl mb-2">
         교육프로그램
       </div>

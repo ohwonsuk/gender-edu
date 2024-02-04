@@ -1,20 +1,13 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import Heading from '../components/Heading';
 
-{
-  /* <!-- 교육 및 상담신청 페이지 --> */
-}
+/* <!-- 교육 및 상담신청 페이지 --> */
+
 const Counseling = () => {
   return (
     <>
-      <div className="w-full h-40 mx-auto bg-gradient-to-b from-teal-400 to-teal-50 border-0 rounded">
-        <div className="font-ibmsans text-xs text-sky-500 pt-28 pl-10 font-semibold">
-          Gender Edu
-        </div>
-        <div className="font-ibmsans text-xs text-sky-500 pl-10 font-semibold">
-          Counseling Center
-        </div>
-      </div>
+      <Heading />
       <div className="w-700px md:pl-[160px] lg:pl-[250px]">
         <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
           교육 및 상담신청
