@@ -69,7 +69,12 @@ const Footer = () => {
                 02-6269-0110
               </p>
               <p className="font-ibmsans flex items-center justify-center md:justify-start">
-                🕙 평일: 오전10:00 ~ 오후05:00
+                <img
+                  className="size-5 mr-2"
+                  src="/clock-solid.svg"
+                  alt="clock"
+                />
+                평일: 오전10:00 ~ 오후05:00
               </p>
             </div>
           </div>
