@@ -142,7 +142,7 @@ const History = () => {
         }
         return (
           <>
-            <div className="font-ibmsans pl-2 text-lg underline mt-5 mb-2">
+            <div className="font-ibmsans pl-2 text-lg text-pink-950 underline mt-5 mb-2">
               {year}
             </div>
             <ul className="list-disc leading-relaxed list-outside pl-2">

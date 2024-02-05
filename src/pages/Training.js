@@ -10,7 +10,7 @@ const Training = () => {
     <>
       <Heading />
       <div className="w-700px md:pl-[160px] lg:pl-[250px]">
-        <div className="font-ibmsans pl-2 mt-5 font-bold text-xl mb-2">
+        <div className="font-ibmsans pl-2 mt-5 font-bold text-xl text-pink-950 mb-2">
           교육활동가 양성
         </div>
         <div className="w-[530px] font-ibmsans pl-2 text-left text-lg mb-5">
