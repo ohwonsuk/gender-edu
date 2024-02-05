@@ -5,7 +5,7 @@ import React from 'react';
 const MainProfile = () => {
   return (
     <>
-      <div className="font-ibmsans pl-2 text-xl mb-2">대표 이 승 은</div>
+      <div className="font-ibmsans pl-2 text-lg mb-2">대표 이 승 은</div>
       <ul className="font-ibmsans pl-6 list-disc leading-relaxed mb-5">
         <li>여성가족부 우수교육사례 장관상 수상 2019</li>
         <li>경기북부 학교 및 장애아동청소년 성 인권교육</li>
