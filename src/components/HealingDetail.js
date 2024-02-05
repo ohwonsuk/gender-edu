@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 const HealingDetail = () => {
   const { id } = useParams();
   const num = parseInt(id);
-  const { title, text, tags, imgUrl, target, period } = healingList[num - 1];
+  const { title, text, tags, target, period } = healingList[num - 1];
   return (
     <>
       <div className="w-700px md:pl-[160px] lg:pl-[250px] font-ibmsans">
-        <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">
+        <div className="pl-2 text-left font-bold text-xl text-pink-950 mt-5 mb-5">
           {title}
         </div>
         {/* <img className="w-auto pl-2" src={imgUrl} alt={title} /> */}
