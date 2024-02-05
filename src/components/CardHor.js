@@ -14,7 +14,7 @@ const CardHor = ({ id, title, item, path }) => {
           <div className="flex flex-col justify-start p-6">
             <h5
               key={id}
-              className="mb-2 font-bold text-xl text-neutral-800 dark:text-neutral-50"
+              className="mb-2 font-bold text-xl text-pink-950 dark:text-neutral-50"
             >
               {title}
             </h5>
