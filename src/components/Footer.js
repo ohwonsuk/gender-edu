@@ -66,9 +66,9 @@ const Footer = () => {
                 />
                 평일: 오전10:00 ~ 오후05:00
               </p>
-              <p className="font-ibmsans text-sm">대표 : 이승은</p>
-              <p className="font-ibmsans text-sm">
-                사업자등록번호 : 287-20-01792
+              <p className="font-ibmsans mt-2 text-sm flex items-center justify-center md:justify-start">
+                <span className="ml-4">사업자등록번호 : 287-20-01792</span>
+                <span className="pl-2">대표 : 이승은</span>
               </p>
             </div>
           </div>
