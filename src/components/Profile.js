@@ -15,7 +15,7 @@ const careerList = career.map((item, i) => <li key={i}>{item}</li>);
 const Profile = () => {
   return (
     <>
-      <div className="font-ibmsans pl-2 text-xl mb-2">대표 이 승 은</div>
+      <div className="font-ibmsans pl-2 text-lg mb-2">대표 이 승 은</div>
       <ul className="w-[530px] pl-6 list-disc leading-relaxed text-base mb-5">
         {careerList}
       </ul>
