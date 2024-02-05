@@ -8,7 +8,9 @@ const Card = ({ id, title, text, imgUrl, tags }) => {
         {/*<img className="w-full" src={imgUrl} alt={title} />*/}
         <div className="px-6 py-4">
           <div className="font-ibmsans font-bold text-xl mb-2">{title}</div>
-          <p className="text-gray-700 text-base">{text}</p>
+          <p className="text-gray-700 text-base" key={id}>
+            {text}
+          </p>
         </div>
         <div className="px-6 pt-4 pb-2">
           {tags.map((tag, i) => {
