@@ -13,11 +13,11 @@ const HealingDetail = () => {
         <div className="pl-2 text-left font-bold text-xl mt-5 mb-5">
           {title}
         </div>
-        <img className="w-auto pl-2" src={imgUrl} alt={title} />
+        {/* <img className="w-auto pl-2" src={imgUrl} alt={title} /> */}
         <div className="font-ibmsans pl-2 text-left font-bold text-lg mt-5 mb-5">
           📌 교육내용
         </div>
-        <div className="w-[580px] pl-2 text-left font-semibold text-gray-700 mb-5">
+        <div className="w-auto pl-2 text-left font-semibold text-gray-700 mb-5">
           {text}
         </div>
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
