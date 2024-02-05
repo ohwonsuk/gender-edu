@@ -7,7 +7,9 @@ const Card = ({ id, title, text, imgUrl, tags }) => {
       <div className="md:h-[200px] rounded overflow-hidden shadow-lg shadow-gray-100">
         {/*<img className="w-full" src={imgUrl} alt={title} />*/}
         <div className="px-6 py-4">
-          <div className="font-ibmsans font-bold text-xl mb-2">{title}</div>
+          <div className="font-ibmsans font-bold text-xl text-pink-950 mb-2">
+            {title}
+          </div>
           <p className="text-gray-700 text-base" key={id}>
             {text}
           </p>
