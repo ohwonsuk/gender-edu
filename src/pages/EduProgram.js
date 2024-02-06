@@ -80,7 +80,7 @@ const EduProgram = () => {
         {programList.map((list) => {
           return (
             <>
-              <Link to={`/eduprogram/${list.id}`}>
+              <Link to={`/eduprogram/${list.id}`} key={list.id}>
                 <Card
                   title={list.title}
                   text={list.text}

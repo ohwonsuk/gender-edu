@@ -4,7 +4,7 @@ const Card = ({ id, title, text, imgUrl, tags }) => {
   return (
     <>
       {/* <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5"> */}
-      <div className="md:h-[200px] rounded overflow-hidden shadow-lg shadow-gray-100">
+      <div className="md:h-[270px] rounded overflow-hidden shadow-lg shadow-gray-100">
         {/*<img className="w-full" src={imgUrl} alt={title} />*/}
         <div className="px-6 py-4">
           <div className="font-ibmsans font-bold text-xl text-pink-950 mb-2">

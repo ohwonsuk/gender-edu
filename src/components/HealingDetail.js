@@ -17,7 +17,7 @@ const HealingDetail = () => {
         <div className="font-ibmsans pl-2 text-left font-bold text-lg mt-5 mb-5">
           📌 교육내용
         </div>
-        <div className="w-auto pl-2 text-left font-semibold text-gray-700 mb-5">
+        <div className="w-auto pl-2 text-left font-base text-gray-700 mb-5">
           {text}
         </div>
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
@@ -28,7 +28,7 @@ const HealingDetail = () => {
             <>
               <span
                 key={i}
-                className="inline-bloc px-3 py-1 font-semibold text-gray-700 mb-2"
+                className="inline-bloc px-3 py-1 font-base text-gray-700 mb-2"
               >
                 {tags}
               </span>
@@ -39,17 +39,14 @@ const HealingDetail = () => {
           📌 대상자
         </div>
         {target.map((item, i) => (
-          <div
-            key={i}
-            className="pl-2 text-left font-semibold text-gray-700 mb-2"
-          >
+          <div key={i} className="pl-2 text-left font-base text-gray-700 mb-2">
             {item}
           </div>
         ))}
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
           📌 교육기간
         </div>
-        <div className="pl-2 text-left font-semibold text-gray-700 mb-5">
+        <div className="pl-2 text-left font-base text-gray-700 mb-5">
           {period}
         </div>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold mb-5 pl-2 py-2 px-4 rounded mt-4">

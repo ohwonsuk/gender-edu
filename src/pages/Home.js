@@ -12,12 +12,12 @@ const Home = () => {
   return (
     <>
       <Heading />
-      <div className="w-700px md:pl-[160px] lg:pl-[250px]">
+      <div className="w-screen md:pl-[160px] lg:pl-[250px]">
         <Main />
         <MainProfile />
         <WorkItem />
       </div>
-      <div className="w-[600px]">
+      <div className="w-[620px] md:pl-[160px] md:w-auto">
         <Board />
       </div>
       <Footer />
