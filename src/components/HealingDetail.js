@@ -14,14 +14,14 @@ const HealingDetail = () => {
           {title}
         </div>
         {/* <img className="w-auto pl-2" src={imgUrl} alt={title} /> */}
-        <div className="font-ibmsans pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 교육내용
+        <div className="font-ibmsans pl-2 text-left font-bold text-lg text-teal-600 underline underline-offset-8 mt-5 mb-5">
+          ▹ 교육내용
         </div>
         <div className="w-auto pl-2 text-left font-base text-gray-700 mb-5">
           {text}
         </div>
-        <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 방 식
+        <div className="pl-2 text-left font-bold text-lg text-teal-600 underline underline-offset-8 mt-5 mb-5">
+          ▹ 방 식
         </div>
         {tags.map((tag, i) => {
           return (
@@ -35,16 +35,16 @@ const HealingDetail = () => {
             </>
           );
         })}
-        <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 대상자
+        <div className="pl-2 text-left font-bold text-lg text-teal-600 underline underline-offset-8 mt-5 mb-5">
+          ▹ 대상자
         </div>
         {target.map((item, i) => (
           <div key={i} className="pl-2 text-left font-base text-gray-700 mb-2">
             {item}
           </div>
         ))}
-        <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 교육기간
+        <div className="pl-2 text-left font-bold text-lg text-teal-600 underline underline-offset-8 mt-5 mb-5">
+          ▹ 교육기간
         </div>
         <div className="pl-2 text-left font-base text-gray-700 mb-5">
           {period}

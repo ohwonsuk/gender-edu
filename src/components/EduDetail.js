@@ -15,13 +15,13 @@ const EduDetail = () => {
         </div>
         {/* <img className="w-auto pl-2" src={imgUrl} alt={title} /> */}
         <div className="font-ibmsans pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 교육내용
+          ◇ 교육내용
         </div>
-        <div className="w-[580px] pl-2 text-left font-base text-gray-700 mb-5">
+        <div className="pl-2 text-left font-base text-gray-700 mb-5">
           {text}
         </div>
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 방 식
+          ◇ 방 식
         </div>
         {tags.map((tag, i) => {
           return (
@@ -36,7 +36,7 @@ const EduDetail = () => {
           );
         })}
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 대상자
+          ◇ 대상자
         </div>
         {target.map((item) => (
           <div className="pl-2 text-left font-base text-gray-700 mb-2">
@@ -44,7 +44,7 @@ const EduDetail = () => {
           </div>
         ))}
         <div className="pl-2 text-left font-bold text-lg mt-5 mb-5">
-          📌 교육기간
+          ◇ 교육기간
         </div>
         <div className="pl-2 text-left font-base text-gray-700 mb-5">
           {period}
