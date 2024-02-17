@@ -43,7 +43,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
     "dotenv": "^16.4.1",
+    "react-router-sitemap-generator": "^0.0.8",
     "tailwindcss": "^3.4.1"
   },
   "homepage": "https://gender-edu.netlify.app"
