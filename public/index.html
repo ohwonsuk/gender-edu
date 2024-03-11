@@ -28,6 +28,25 @@
     />
 
     <title>젠더에듀상담센터</title>
+    <!--
+      index.html에 적용할 css 파일 import
+    -->
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/index.css" />
+    <style>
+      /* css 파일을 연동하는 시간을 아끼기 위한 내부 스타일시트 선언*/
+      #loadingElement {
+        animation: 1s linear infinite rotateLoadingElement;
+      }
+      @keyframes rotateLoadingElement {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(360deg);
+        }
+      }
+    </style>
+
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
