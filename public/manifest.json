@@ -1,5 +1,5 @@
 {
-  "short_name": "Gender-Edu App",
+  "short_name": "젠더에듀상담센터",
   "name": "Genfder-Edu Counseling Center App",
   "icons": [
     {
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "image1.png",
+      "src": "image2.png",
       "type": "image/png",
       "sizes": "512x512"
     }
