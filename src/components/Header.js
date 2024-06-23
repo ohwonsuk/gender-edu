@@ -13,7 +13,7 @@ const navigation = [
     current: false,
   },
   {
-    name: '치유프로그램',
+    name: '재활프로그램',
     to: '/healingprogram',
     current: false,
   },

@@ -16,7 +16,7 @@ const workList = [
   },
   {
     id: 2,
-    title: '👉 치유프로그램 소개',
+    title: '👉 재활프로그램 소개',
     item: ['언어치료', '인지치료', '놀이치료', '미술치료', '피해자심리상담'],
     path: '/healingprogram',
   },

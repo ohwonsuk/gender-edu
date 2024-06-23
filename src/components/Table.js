@@ -5,7 +5,7 @@ const tableData = [
   {
     id: 1,
     name: '이승은',
-    field: '젠더에듀상담센터 소장',
+    field: '젠더에듀상담센터 센터장',
     note: '내부위원',
   },
   {
