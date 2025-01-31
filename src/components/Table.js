@@ -16,7 +16,7 @@ const tableData = [
   },
   {
     id: 3,
-    name: '이승민',
+    name: '김지민',
     field: '인권/폭력예방교육전문가',
     note: '외부위원',
   },
@@ -34,8 +34,14 @@ const tableData = [
   },
   {
     id: 6,
-    name: '임지혜',
-    field: '미술치료전문가',
+    name: '최영진',
+    field: '미술심리치료전문가',
+    note: '외부위원',
+  },
+  {
+    id: 7,
+    name: '윤미경',
+    field: '감각통합치료전문가',
     note: '외부위원',
   },
 ];
